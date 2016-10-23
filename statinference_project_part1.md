@@ -1,6 +1,6 @@
 ---
 title: 'Statistical Inference Course Project, Part 1: Simulation Exercises'
-author: "Sefa Kilic"
+author: "Dhilen Shah"
 output:
   html_document: default
   pdf_document:
@@ -30,7 +30,7 @@ row_means <- rowMeans(sim)
 
 The distribution of sample means is as follows.
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-2](figure/Rplot_figure_Part1_figure1.png) 
 
 The distribution of sample means is centered at 4.9866
 and the theoretical center of the distribution is $\lambda^{-1}$ = 5.
@@ -43,12 +43,12 @@ distribution. The figure above also shows the density computed using the histogr
 normal density plotted with theoretical mean and variance values. Also, the
 q-q plot below suggests the normality.
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](figure/Rplot_Part1_figure1.png) 
 
 Finally, let's evaluate the coverage of the confidence interval for
 $1/\lambda = \bar{X} \pm 1.96 \frac{S}{\sqrt{n}}$
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](figure/Rplot_figure1.png) 
 
 The 95% confidence intervals for the rate parameter ($\lambda$) to be estimated
 ($\hat{\lambda}$) are
